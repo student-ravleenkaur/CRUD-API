@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Blog API</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1> Simple Blog API</h1>
+
+    <div class="form-section">
+        <h2>Create a Blog Post</h2>
+        <form id="create-blog">
+            <input type="text" placeholder="Title" required><br><br>
+            <input type="text" placeholder="Author" required><br><br>
+            <textarea placeholder="Body" required></textarea><br><br>
+            <button type="submit">Create Blog</button><br><br>
+        </form>
+    </div>
+
+    <div class="form-section">
+        <h2>Find Blog by ID</h2>
+        <form id="find-blog">
+            <input type="text" placeholder="Enter Blog ID" required><br><br>
+            <button type="submit">Search Blog</button><br><br>
+        </form>
+    </div>
+
+    <div class="form-section">
+        <h2>Update Blog Post</h2>
+        <form id="update-blog">
+            <input type="text" placeholder="Blog ID" required><br><br>
+            <input type="text" placeholder="New Title"><br><br>
+            <textarea placeholder="New Content"></textarea><br><br>
+            <button type="submit">Update Blog</button><br><br>
+        </form>
+    </div>
+
+    <div class="form-section">
+        <h2>Delete Blog Post</h2>
+        <form id="delete-blog">
+            <input type="text" placeholder="Blog ID" required><br><br>
+            <button type="submit">Delete Blog</button><br><br>
+        </form>
+    </div>
+</body>
+</html>
